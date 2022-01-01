@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/menu_desc_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:background="#096374"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/ttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/cairo_semibold"
+            android:text="New User"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/addUserId"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners_dialog"
+        android:backgroundTint="#E1F5F9"
+        android:ems="10"
+        android:hint="   User ID"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#575757"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_desc_toolbar"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <EditText
+        android:id="@+id/addUserFirstName"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners_dialog"
+        android:backgroundTint="#E1F5F9"
+        android:ems="10"
+        android:hint="   First Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#575757"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addUserId"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/addUserLastName"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners_dialog"
+        android:backgroundTint="#E1F5F9"
+        android:ems="10"
+        android:hint="   Last Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#575757"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addUserFirstName"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/addUserPhone"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners_dialog"
+        android:backgroundTint="#E1F5F9"
+        android:ems="10"
+        android:hint="   Phone Number"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#575757"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addUserLastName"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/addUserEmail"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners_dialog"
+        android:backgroundTint="#E1F5F9"
+        android:ems="10"
+        android:hint="   Email"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#575757"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addUserPhone"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="176dp"
+        android:layout_height="52dp"
+        android:background="#096374"
+        android:text="Add User"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/addUserEmail"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/addUserEmail"
+        app:layout_constraintTop_toBottomOf="@+id/addUserEmail"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <ProgressBar
+        android:id="@+id/addUserProgress"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="186dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_desc_toolbar"
+        app:layout_constraintVertical_bias="0.36" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

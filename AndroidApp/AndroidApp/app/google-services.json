@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034395713122",
+    "project_id": "mohammad-al-saadon---180046",
+    "storage_bucket": "mohammad-al-saadon---180046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034395713122:android:5098d4978a9f9af79b1b3b",
+        "android_client_info": {
+          "package_name": "my.app.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034395713122-0h5inhqpvtqr9e2f0gvh1q4oca1dqbf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZqbv-6esNAmTYCSsI7VzgIM3PKWkWM1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034395713122-0h5inhqpvtqr9e2f0gvh1q4oca1dqbf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
